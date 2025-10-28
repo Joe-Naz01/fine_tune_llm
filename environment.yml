@@ -1,0 +1,21 @@
+
+---
+
+## 🧾 environment.yml
+```yaml
+name: fine_tune_llm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - numpy>=1.26
+  - pandas>=2.0
+  - pytorch
+  - transformers>=4.42
+  - datasets>=3.0
+  - evaluate>=0.7
+  - accelerate>=0.30
+  - peft>=0.11
+  - sentencepiece>=0.2
+  - bitsandbytes>=0.43
